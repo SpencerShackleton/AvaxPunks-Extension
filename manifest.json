@@ -1,5 +1,5 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
   
     "name": "AvaxPunks Rarity Plugin",
     "description": "This extension will add a Punks rarity on NFTTrade.com",
@@ -11,8 +11,8 @@
           "css": ["new.css"]
         }
       ],
-    
-    "permissions": [
-     "activeTab"
-     ]
+    "host_permissions": [
+      "https://app.nftrade.com/assets/avalanche/0xf70576a5255fccfe6551f3ec8de74c9e002e1a82*",
+      "https://app.nftrade.com/users/avalanche/*"
+    ]
   }
